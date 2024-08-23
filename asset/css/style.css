@@ -32,6 +32,7 @@ a {
 }
 
 .main-content {
+  /* xử lí chiều rộng của trang web */
   width: 1170px;
   max-width: calc(100% - 48px);
   margin-left: auto;
@@ -638,7 +639,6 @@ a {
   font-size: 1.4rem;
 }
 
-
 .blogs .item .btn:hover {
   background-color: var(--primary-color);
 }
@@ -654,11 +654,87 @@ a {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background-color: #5F5B53;
+  background-color: #5f5b53;
   cursor: pointer;
 }
 
 .blogs .dot.active {
   background-color: var(--primary-color);
   cursor: default;
+}
+
+/* ========================================footer============================================ */
+footer {
+  background-color: #2e2100;
+  padding: 96px 135px 0;
+}
+
+.footer .row {
+  padding-bottom: 38px;
+  border-bottom: 1px solid #59554b;
+  display: flex;
+}
+
+.footer .row .column {
+  width: 21%;
+}
+
+.footer .row .column:first-child {
+  width: 35%;
+}
+
+.footer .desc {
+  margin-top: 18px;
+  max-width: 267px;
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  line-height: 186%; /* 185.714% */
+}
+
+.footer .socials {
+  display: flex;
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.footer .title {
+  display: inline-block;
+  border-bottom: 1px solid #59554b;
+  padding-right: 48px;
+  padding-bottom: 14px;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 175%; /* 175% */
+}
+
+.footer .list {
+  margin-top: 28px;
+}
+
+.footer .list a {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  line-height: 186%; /* 185.714% */
+}
+
+.footer .list li:last-child {
+  margin-bottom: 0;
+}
+
+.footer .list strong {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 186%; /* 185.714% */
+}
+
+.footer .copyright {
+  padding: 28px 0;
+  color: #807d74;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 186%; /* 185.714% */
 }
