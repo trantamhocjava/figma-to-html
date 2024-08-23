@@ -39,7 +39,7 @@ a {
 
 /* header  */
 .header {
-  background: #fffcf4;
+  background-color: #fffcf4;
 }
 
 .header .body {
@@ -94,4 +94,29 @@ a {
 
 .header .action {
   margin-left: 49px;
+}
+
+/* hero */
+.hero {
+  padding: 56px;
+  background-color: #fffcf4;
+}
+
+.hero .body {
+  display: flex;
+}
+
+.hero .media-block {
+  width: 48%;
+}
+
+.hero .content-block {
+  width: 52%;
+}
+
+.hero .media-block .img {
+  width: 470px;
+  height: 685px;
+  object-fit: cover;
+  border-radius: 20px;
 }
