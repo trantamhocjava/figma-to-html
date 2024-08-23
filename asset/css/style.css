@@ -17,7 +17,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* common */
+/* ========================================common============================================ */
 a {
   text-decoration: none;
 }
@@ -56,7 +56,22 @@ a {
   opacity: 0.8;
 }
 
-/* header  */
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp, 1);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp.line-2 {
+  --line-clamp: 2;
+}
+
+.break-all {
+  word-break: break-all;
+}
+
+/* ========================================header============================================ */
 .header {
   background-color: #fffcf4;
 }
@@ -278,7 +293,7 @@ a {
   margin-left: 28px;
 }
 
-/* popular */
+/* ========================================popular============================================ */
 .popular {
   padding: 65px 0;
   margin-top: 135px;
@@ -328,6 +343,7 @@ a {
 }
 
 .popular .course-item {
+  flex: 1;
   border-radius: 12px;
   border: 3px solid #e2dfda;
   background: #fff;
