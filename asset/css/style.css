@@ -479,7 +479,7 @@ a {
   line-height: 154%; /* 153.846% */
 }
 
-/* ========================================feature============================================ */
+/* ========================================features 1============================================ */
 .features {
   margin-top: 135px;
   padding: 65px 0;
@@ -487,6 +487,7 @@ a {
 
 .features .body {
   display: flex;
+  justify-content: space-between;
 }
 
 .features .images {
@@ -507,7 +508,6 @@ a {
 
 .features .content {
   width: 41%;
-  margin-left: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -525,4 +525,22 @@ a {
   width: 137px;
   height: 50px;
   background-color: var(--primary-color);
+}
+
+/* ========================================features 2============================================ */
+.features2 {
+  margin-top: 70px;
+}
+
+.features2 .body {
+  flex-direction: row-reverse;
+}
+
+.features2 .content {
+  width: 49%;
+}
+
+.features2 .images img {
+  width: 470px;
+  height: 440px;
 }
